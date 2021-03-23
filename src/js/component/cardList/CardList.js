@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { Context } from "../../store/appContext";
-import Card from "../card/Card";
+import Card from "../Card/Card";
 import "./CardList.css";
 import PropTypes from "prop-types";
 
