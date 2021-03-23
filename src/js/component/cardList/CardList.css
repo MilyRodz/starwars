@@ -1,0 +1,38 @@
+.card-container {
+  margin-top: 30px;
+}
+
+.headline-margin {
+  margin-top: 30px;
+  color: red;
+}
+
+.card-margin {
+  margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+  .card-deck.card-deck-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+  }
+
+  .card-deck.card-deck-scroll > .card {
+      flex-basis: 35%;
+  }
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(238, 238, 240); 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
